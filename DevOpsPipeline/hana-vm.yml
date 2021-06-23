@@ -1,12 +1,5 @@
 # Azure DevOps Pipeline to deploy SAP HANA and subsequent tasks
 
-jobs:
-- job: Linux
-  pool:
-    vmImage: 'ubuntu-latest'
-  steps:
-  - script: echo hello from Linux
-  
 parameters:
 - name: size
   displayName: HANA VM Size
